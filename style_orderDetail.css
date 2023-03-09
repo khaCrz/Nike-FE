@@ -1,0 +1,177 @@
+.container_main {
+    margin: 0;
+    padding: 0px 13%;
+}
+
+.container_left {
+    float: left;
+    max-width: 62%;
+    min-width: 62%;
+}
+
+.container_right {
+    float: right;
+    max-width: 38%;
+    min-width: 38%;
+}
+
+.sub_title {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.summary_total {
+    margin-top: 20px;
+}
+
+.infor_label {
+    float: left;
+    margin: 10px 0px;
+
+}
+
+.value_label {
+    float: right;
+    margin: 10px 0px;
+}
+
+.total_payment {
+    margin-top: 20px;
+    padding: 10px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.201);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+}
+
+.checkout_btn {
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 18px;
+    border: none;
+    width: 240px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.checkout_btn i {
+    float: right;
+    margin-right: 5%;
+    margin-left: -15%;
+    font-size: 24px;
+}
+
+.checkout_btn:hover {
+    background-color: rgba(0, 0, 0, 0.728);
+}
+
+.item_img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.item_infor {
+    min-width: 55%;
+    margin: 0px 4%;
+}
+
+.item_price {}
+
+.order_item {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.list_orders {
+    margin-top: 20px;
+}
+
+.item_name {
+    color: black;
+}
+
+.item_infor .infor {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sub_options {
+    margin: 10% 0px;
+}
+
+.sub_options a {
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.sub_options i {
+    font-size: 23px;
+}
+
+.sub_options a:hover i {
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.fa-trash-can {
+    margin-left: 5px;
+}
+
+.item_choose span {
+    margin-right: 20px;
+}
+
+.item_name {
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.item_category {
+    color: rgba(0, 0, 0, 0.577);
+}
+
+.item_color {
+    color: rgba(0, 0, 0, 0.577);
+}
+
+.item_size {
+    color: rgba(0, 0, 0, 0.577);
+}
+
+.item_quantity {
+    color: rgba(0, 0, 0, 0.577);
+}
+
+.check-box input {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.check-box input:checked {
+    background-color: #000000;
+}
+
+
+input[type="checkbox"] {
+    font: inherit;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    display: grid;
+    place-content: center;
+    color: black;
+}
+

@@ -1,0 +1,173 @@
+.item-images{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mystyle-products .product-detail {
+    width: 48%;
+    background: #fff;
+    margin: 5px 5px;
+
+}
+
+.boby-itemshow-detail{
+    width: 64%;
+    float: left;
+    margin-left: 3%;
+}
+
+.body-menu-detail{
+    width: 25%;
+    float: right;
+    margin-right: 5%;
+}
+
+.item-detail-filter span{
+    display: block;
+}
+
+.img-color img{
+    width: 15%;
+}
+
+.item-colors{
+    margin-left: -5%;
+}
+
+.item-colors li{
+    display: inline;
+}
+
+
+.selected{
+    border: 2px solid black;
+}
+
+.item-images img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.item-images ul li{
+    list-style: none;
+}
+
+.mystyle-products{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.category{
+    font-size: 17px;
+}
+
+.price{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.size-select-area{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.size-select{
+    border: 1px solid rgb(192, 180, 180);
+    display: flex;
+    justify-content: center;
+    margin: 3px 2px;
+    align-items: center;
+    min-width: 120px;
+    min-height: 50px;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.size-select:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+.bag-feature button{
+    min-width: 100%;
+    min-height: 70px;
+    display: block;
+    margin: 15px 0px;
+    border-radius: 40px;
+}
+
+.bag-feature i{
+    float: right;
+    margin-right: 15px;
+    margin-left: -20px;
+    margin-top: 3px;
+    font-size: 23px;
+}
+
+.addbag-btn{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: 18px;
+    border: none;
+}
+
+.addbag-btn:hover{
+    background-color: rgba(0, 0, 0, 0.728);
+}
+
+.favourite-btn{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgba(69, 69, 69, 0.408);
+    cursor: alias;
+}
+
+.description{
+    margin-top: 10%;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.moreinfor{
+    margin-top: 5%;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#more{
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,284 @@
+/* Nút Dropdown*/
+.nut_dropdown {
+    color: rgb(0, 0, 0);
+    border: none;
+    display: inline-block;
+    height: 50px;
+    border-bottom: 3px solid white;
+    text-decoration: none;
+    margin-top: 20px;
+
+}
+
+  /* Thiết lập vị trí cho thẻ div với class dropdown*/
+.my-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.clearfix::after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.head_title_1{
+  padding: 10px;
+  font-size: 18px;
+}
+
+.head_title{
+  padding-bottom: 10px;
+}
+
+
+
+.noi-dung{
+    min-height: 40px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 1px solid rgb(237, 237, 237);
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.1s ease-out, opacity 0.2s ease-in;
+    background-color: white;
+    z-index: 1;
+}
+
+.noi-dung ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: auto 100px;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+.search{
+    margin-left: 50px;
+    padding-left: 40px;
+}
+
+.navbar-cus ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.navbar-cus{
+    margin-bottom: -16px;
+
+}
+
+.navbar-cus a:hover{
+    color: black;
+}
+
+.noi-dung span{
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
+.noi-dung span:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar-cus a{
+    padding: 0px 13px;
+}
+
+
+
+.logo{
+  margin-right: 20%;
+  margin-left: 2%;
+  font-size: 50px;
+  margin-top: 10px;
+  float: left;
+  color: black;
+  transform: rotate(130deg);
+  transition: transform 1.4s;
+}
+
+.logo:hover{
+  color: rgba(0, 0, 0, 0.649);
+  box-shadow: #3d4752;
+  transform: rotate(0deg);
+}
+
+.nav-link{
+  font-size: small;
+  font-weight: 400;
+}
+
+.dropbtn {
+    color: black;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: small;
+    font-weight: 400;
+
+}
+
+.dropdown i{
+  font-size: 20px;
+}
+
+.dropdown i:hover{
+  color: rgba(0, 0, 0, 0.208);
+}
+
+
+.dropbtn:hover {
+    color: rgba(0, 0, 0, 0.33);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.drop-header-title{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.118);
+  padding: 5px;
+  margin: 10px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.dropdown a {
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.088);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  color: rgba(0, 0, 0, 0.472);
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.line-top{
+    margin-top: 2px;
+    font-size: small;
+}
+
+.order{
+  margin: auto;
+  margin-left: -7%;
+  text-decoration: none;
+}
+
+.order svg{
+  margin-top: -0.5%;
+  color: black;
+}
+
+.order:hover svg{
+  cursor: pointer;
+  color: #8e8787;
+}
+
+.order_total{
+  color: black;
+  margin-left: -1.5%;
+  font-size: small;
+  font-weight: 400;
+}
+
+
+
+.search-container{
+  margin-left: 50px;
+}
+
+.search-box {
+  transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #ebebeb;
+}
+.search-box + label .search-icon {
+  color: black;
+}
+.search-box:hover {
+  color: white;
+  background: #c8c8c8;
+  box-shadow: 0 0 0 5px #3d4752;
+}
+.search-box:hover + label .search-icon {
+  color: white;
+}
+.search-box:focus {
+  transition: width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), border-radius 0.6s, background 0.6s;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding-left: 15px;
+  cursor: text;
+  width: 300px;
+  border-radius: auto;
+  background: #ebebeb;
+  color: black;
+}
+.search-box:focus + label .search-icon {
+  color: black;
+}
+.search-box:not(:focus) {
+  text-indent: -5000px;
+}
+
+#search-submit {
+  position: relative;
+  left: -5000px;
+}
+
+.search-icon {
+  position: relative;
+  left: -32px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
