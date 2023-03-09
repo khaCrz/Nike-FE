@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="style_template.css">
-    <link rel="stylesheet" href="style_home.css">
-    <title>Nike 2.0</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="/css/style_template.css">
+  <link rel="stylesheet" href="/css/style_home.css">
+  <title>Nike 2.0</title>
 </head>
+
 <body>
   <!-- Template -->
   <!-- NavBar head -->
@@ -33,7 +36,7 @@
               <a class="dropbtn" href="#">Help</a>
               <div class="dropdown-content">
                 <div class="drop-header-title">Help</div>
-                <a href="/home.html">Home</a>
+                <a href="/index.html">Home</a>
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
               </div>
@@ -71,27 +74,29 @@
       <a href="#"><i class="fa-brands fa-renren logo"></i></a>
 
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_all" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)">All Products</a>
+        <a class="nut_dropdown" id="nut_dropdown_all" href="/itemsShow.html">All Products</a>
       </li>
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_mans" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)">Man</a>
+        <a class=" nut_dropdown" id="nut_dropdown_mans" href="/itemsShow.html">Man</a>
       </li>
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_womans" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)">Woman</a>
+        <a class="nut_dropdown" id="nut_dropdown_womans" href="/itemsShow.html">Woman</a>
       </li>
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_kids" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)">Kids</a>
+        <a class="nut_dropdown" id="nut_dropdown_kids" href="/itemsShow.html">Kids</a>
       </li>
       <li>
-        <form class="search-container" action="ManagerServlet?search=search" method = "post">
+        <form class="search-container" action="ManagerServlet?search=search" method="post">
           <input id="search-box" type="text" class="search-box" name="txtsearch" />
           <label for="search-box"><span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span></label>
           <input type="submit" id="search-submit" />
         </form>
       </li>
       <a class="order" href="/orderDetail.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
         </svg>
       </a>
     </ul>
@@ -101,51 +106,44 @@
   <div class="noi-dung" id="noi_dung" value="none">
     <ul>
       <li value="1">
-        <span onclick="ClickCategory('home.jsp?category=1')">Shoes</span>
+        <span>Shoes</span>
         <!-- <a href="home.jsp?category=1" onclick="ClickCategory(href)">Shoes</a> -->
       </li>
       <li value="2">
-        <span onclick="ClickCategory('home.jsp?category=2')">Shirts</span>
+        <span>Shirts</span>
         <!-- <a href="home.jsp?category=2" onclick="ClickCategory(href)">Shirts</a> -->
       </li>
       <li value="3">
-        <span onclick="ClickCategory('home.jsp?category=3')">Shorts</span>
+        <span>Shorts</span>
         <!-- <a href="home.jsp?category=3" onclick="ClickCategory(href)">Shorts</a> -->
       </li>
       <li value="4">
-        <span onclick="ClickCategory('home.jsp?category=4')">Caps</span>
+        <span>Caps</span>
         <!-- <a href="home.jsp?category=4" onclick="ClickCategory(href)">Caps</a> -->
       </li>
     </ul>
-    <script>
-      function ClickCategory(href){
-        type = document.getElementById("noi_dung").getAttribute('value');
-        href = href + "?type=" + type
-        window.location.href = "href";
 
-      }
-    </script>
   </div>
   <div style="background-color: #f5f5f5; text-align: center;">
     <div class="head_title_1">Good Luck Have Fun</div>
   </div>
-    <!-- NavBar head 2 -->
-    <!-- End Template -->
-    <div style="height: 1000px;" id="bodypage">
-      <div class="video-container">
-        <video autoplay muted loop>
-          <!-- <source src="https://www.dropbox.com/s/7o5pvv7bzoc2x5y/y2mate.com%20-%20Shoes%20by%202GO%20%20Theatrical%20Ad%20Film%20%20Commercial_1080p.mp4?raw=1" type="video/mp4" /> -->
-          <source src="y2mate.com - Shoes by 2GO  Theatrical Ad Film  Commercial_1080p.mp4" type="video/mp4" />
+  <!-- NavBar head 2 -->
+  <!-- End Template -->
+  <div style="height: 1000px;" id="bodypage">
+    <div class="video-container">
+      <video autoplay muted loop>
+        <!-- <source src="https://www.dropbox.com/s/7o5pvv7bzoc2x5y/y2mate.com%20-%20Shoes%20by%202GO%20%20Theatrical%20Ad%20Film%20%20Commercial_1080p.mp4?raw=1" type="video/mp4" /> -->
+        <source src="/videos/y2mate.com - Shoes by 2GO  Theatrical Ad Film  Commercial_1080p.mp4" type="video/mp4" />
 
-        </video>
-        <div class="caption">
-          <button>Join With Us</button>
-        </div>
+      </video>
+      <div class="caption">
+        <button>Join With Us</button>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
@@ -267,7 +265,10 @@
   </footer>
   <!-- Footer -->
 
-  <script src="template.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="/js/template.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

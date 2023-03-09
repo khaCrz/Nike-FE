@@ -7,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-  <link rel="stylesheet" href="style_template.css">
-  <link rel="stylesheet" href="style_itemsShow.css">
+  <link rel="stylesheet" href="/css/style_template.css">
+  <link rel="stylesheet" href="/css/style_itemsShow.css">
 
   <title>Items</title>
 </head>
@@ -65,124 +66,134 @@
           d="M2.309 9.27c-1.22 1.073-.49 3.034 1.978 3.034 1.434 0 2.868-.925 3.994-2.406-1.602-.789-2.959-1.353-4.425-1.207-.397.04-1.14.217-1.547.58Z" />
       </svg>
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_all" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)">All Products</a>
+        <a class="nut_dropdown" id="nut_dropdown_all" href="#" onmouseover="OnmouseOver(id)"
+          onmouseout="OnmouseOut(id)">All Products</a>
       </li>
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_mans" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)">Man</a>
+        <a class="nut_dropdown" id="nut_dropdown_mans" href="#" onmouseover="OnmouseOver(id)"
+          onmouseout="OnmouseOut(id)">Man</a>
       </li>
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_womans" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)">Woman</a>
+        <a class="nut_dropdown" id="nut_dropdown_womans" href="#" onmouseover="OnmouseOver(id)"
+          onmouseout="OnmouseOut(id)">Woman</a>
       </li>
       <li>
-        <a class="nut_dropdown" id="nut_dropdown_kids" href="#" onmouseover="OnmouseOver(id)" onmouseout="OnmouseOut(id)" >Kids</a>
+        <a class="nut_dropdown" id="nut_dropdown_kids" href="#" onmouseover="OnmouseOver(id)"
+          onmouseout="OnmouseOut(id)">Kids</a>
       </li>
       <li>
-        <form class="search-container" action="ManagerServlet?search=search" method = "post">
+        <form class="search-container" action="ManagerServlet?search=search" method="post">
           <input id="search-box" type="text" class="search-box" name="txtsearch" />
           <label for="search-box"><span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span></label>
           <input type="submit" id="search-submit" />
         </form>
       </li>
       <a class="order" href="/orderDetail.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-          <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag"
+          viewBox="0 0 16 16">
+          <path
+            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
         </svg>
       </a>
     </ul>
   </div>
 
-    <div class="noi-dung" id="noi_dung" value="none">
-      <ul>
-        <li>
-          <a href="/sanpham.html">Shoes</a>
-        </li>
-        <li>
-          Shirts
-        </li>
-        <li>
-          Shorts
-        </li>
-        <li>
-          Caps
-        </li>
-      </ul>
-    </div>
-    <!-- NavBar head 2 -->
-    <!-- End Template -->
-    <div class="body clearfix " id="bodypage">
-      <div class="boby-menu clearfix">
-        <span>Men's Shoes (349)</span>
-        <div class="menu-category">
-          <ul>
-            <li>Lifestyle</li>
-            <li>Jordan</li>
-            <li>Running</li>
-            <li>Basketball</li>
-            <li>Football</li>
-            <li>Trainning & Gym</li>
-            <li>Walking</li>
-          </ul>
-        </div>
-        <div>
-
-        </div>
+  <div class="noi-dung" id="noi_dung" value="none">
+    <ul>
+      <li value="1">
+        <span>Shoes</span>
+        <!-- <a href="home.jsp?category=1" onclick="ClickCategory(href)">Shoes</a> -->
+      </li>
+      <li value="2">
+        <span>Shirts</span>
+        <!-- <a href="home.jsp?category=2" onclick="ClickCategory(href)">Shirts</a> -->
+      </li>
+      <li value="3">
+        <span>Shorts</span>
+        <!-- <a href="home.jsp?category=3" onclick="ClickCategory(href)">Shorts</a> -->
+      </li>
+      <li value="4">
+        <span>Caps</span>
+        <!-- <a href="home.jsp?category=4" onclick="ClickCategory(href)">Caps</a> -->
+      </li>
+    </ul>
+  </div>
+  <!-- NavBar head 2 -->
+  <!-- End Template -->
+  <div class="body clearfix " id="bodypage">
+    <div class="boby-menu clearfix">
+      <span>Men's Shoes (349)</span>
+      <div class="menu-category">
+        <ul>
+          <li>Lifestyle</li>
+          <li>Jordan</li>
+          <li>Running</li>
+          <li>Basketball</li>
+          <li>Football</li>
+          <li>Trainning & Gym</li>
+          <li>Walking</li>
+        </ul>
       </div>
-      <div class="body-itemshow">
-        <div class="item-filter">
-          <div class="filter-items">
-            Filter
-          </div>
-          <div class="sort-items">
-            Sort By
-          </div>
-        </div>
-        <div class="item-show">
-          <ul class="mystyle-products">
-            <li class="product" value="1" onclick="itemClick(value)">
-              <img alt="" class="attachment-shop_catalog"
-                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0347d890-b837-475f-a1eb-850d09e7bd28/air-force-1-07-shoes-x9rqBh.png" />
-              <span class="status">Just In</span>
-              <span class="name">Nike Air Force 1 '07 Premium</span>
-              <span class="category">Men's Shoes</span>
-              <span class="colors">1 Colour</span>
-              <span class="price">2,999,000</span>
-              <span class="price-sale">3,519,000</span>
-            </li>
-            <li class="product" value="2" onclick="itemClick(value)">
-              <img alt="" class="attachment-shop_catalog "
-                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4354ca9e-0c30-4d1d-9906-12bb7bc6e5c4/blazer-low-77-shoes-sGzh9q.png" />
-              <span class="name">Nike Blazer Low '77 Premium</span>
-              <span class="category">Men's Shoes</span>
-              <span class="colors">1 Colour</span>
-              <span class="price">2,779,000</span>
-              <span class="price-sale"></span>
-            </li>
-            <li class="product" value="3" onclick="itemClick(value)">
-              <img alt="" class="attachment-shop_catalog "
-                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9c873d33-58ff-4a69-a28c-9deabb3631eb/blazer-mid-pro-club-shoes-xCk8SQ.png" />
-              <span class="status">Sustainable Materials</span>
-              <span class="name">Nike Air Max Terrascape 97</span>
-              <span class="category">Men's Shoes</span>
-              <span class="colors">2 Colour</span>
-              <span class="price">4,589,000</span>
-              <span class="price-sale">5,589,000</span>
-            </li>
-            <li class="product" value="4" onclick="itemClick(value)">
-              <img alt="" class="attachment-shop_catalog "
-                src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dc9efa13-9572-490e-afa9-4c5b8e25187a/air-jordan-1-mid-se-shoes-pZbfP8.png" />
-              <span class="status">Just In</span>
-              <span class="name">Nike Blazer Mid Pro Club</span>
-              <span class="category">Men's Shoes</span>
-              <span class="colors">3 Colour</span>
-              <span class="price">100,000</span>
-              <span class="price-sale">3,239,000</span>
+      <div>
 
-            </li>
-
-          </ul>
-        </div>
       </div>
     </div>
+    <div class="body-itemshow">
+      <div class="item-filter">
+        <div class="filter-items">
+          Filter
+        </div>
+        <div class="sort-items">
+          Sort By
+        </div>
+      </div>
+      <div class="item-show">
+        <ul class="mystyle-products">
+          <li class="product" value="1" onclick="itemClick(value)">
+            <img alt="" class="attachment-shop_catalog"
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0347d890-b837-475f-a1eb-850d09e7bd28/air-force-1-07-shoes-x9rqBh.png" />
+            <span class="status">Just In</span>
+            <span class="name">Nike Air Force 1 '07 Premium</span>
+            <span class="category">Men's Shoes</span>
+            <span class="colors">1 Colour</span>
+            <span class="price">2,999,000</span>
+            <span class="price-sale">3,519,000</span>
+          </li>
+          <li class="product" value="2" onclick="itemClick(value)">
+            <img alt="" class="attachment-shop_catalog "
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4354ca9e-0c30-4d1d-9906-12bb7bc6e5c4/blazer-low-77-shoes-sGzh9q.png" />
+            <span class="name">Nike Blazer Low '77 Premium</span>
+            <span class="category">Men's Shoes</span>
+            <span class="colors">1 Colour</span>
+            <span class="price">2,779,000</span>
+            <span class="price-sale"></span>
+          </li>
+          <li class="product" value="3" onclick="itemClick(value)">
+            <img alt="" class="attachment-shop_catalog "
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9c873d33-58ff-4a69-a28c-9deabb3631eb/blazer-mid-pro-club-shoes-xCk8SQ.png" />
+            <span class="status">Sustainable Materials</span>
+            <span class="name">Nike Air Max Terrascape 97</span>
+            <span class="category">Men's Shoes</span>
+            <span class="colors">2 Colour</span>
+            <span class="price">4,589,000</span>
+            <span class="price-sale">5,589,000</span>
+          </li>
+          <li class="product" value="4" onclick="itemClick(value)">
+            <img alt="" class="attachment-shop_catalog "
+              src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dc9efa13-9572-490e-afa9-4c5b8e25187a/air-jordan-1-mid-se-shoes-pZbfP8.png" />
+            <span class="status">Just In</span>
+            <span class="name">Nike Blazer Mid Pro Club</span>
+            <span class="category">Men's Shoes</span>
+            <span class="colors">3 Colour</span>
+            <span class="price">100,000</span>
+            <span class="price-sale">3,239,000</span>
+
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
   </div>
 
 
@@ -322,7 +333,7 @@
     }
     const searchtext = document.getElementById("text-search");
   </script>
-  <script src="template.js"></script>
+  <script src="/js/template.js"></script>
 </body>
 
 </html>
